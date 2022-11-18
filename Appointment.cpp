@@ -10,9 +10,9 @@ using namespace std;
 
 Appointment::Appointment()
 {
-	strcpy(appoinment_id, "");
-	strcpy(appoinment_date, "");
-	strcpy(appoinment_time, "");
+	strcpy(appointment_id, "");
+	strcpy(appointment_date, "");
+	strcpy(appointment_time, "");
 	strcpy(user_id, "");
 	strcpy(status, "");
 
@@ -20,9 +20,9 @@ Appointment::Appointment()
 
 Appointment::Appointment(const char aId[], const char aDate[], const char aTime[], const char uId[], const char sta[])
 {
-	strcpy(appoinment_id, aId);
-	strcpy(appoinment_date, aDate);
-	strcpy(appoinment_time, aTime);
+	strcpy(appointment_id, aId);
+	strcpy(appointment_date, aDate);
+	strcpy(appointment_time, aTime);
 	strcpy(user_id, uId);
 	strcpy(status,sta );
 	

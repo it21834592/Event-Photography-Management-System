@@ -9,9 +9,9 @@ using namespace std;
 class Appointment
 {
 	protected:
-	char appoinment_id[20];
-	char appoinment_date[20];
-	char appoinment_time[20];
+	char appointment_id[20];
+	char appointment_date[20];
+	char appointment_time[20];
 	char user_id[20];
 	char status[20];
 //	Admin* ad[SIZE];
